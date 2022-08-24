@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+/* box fix ho jayega*/   box-sizing: border-box;
+}
+body
+{
+    font-family:"Arial","verdana";
+     font-size: 18px;
+}
+h1,h2{
+     
+    color: green;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+h2
+{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+.main-text{
+    text-align: justify;
+    margin-bottom: 18px;
+    
+}
+.author-text{
+    font-size: 40px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.post{
+    color: aqua;
+    padding: 2px;
+    font-size: 30px;
+    margin:10px;
+    }
+.container {
+    width: 1140px;
+    margin: 15px auto 0 auto;
+    position: absolute;
+}
+.main-post {
+   
+    width: 75%;
+/*  space ko left kr dega */ float: left;
+    padding-right: 30px;
+  
+ 
+}
+.other-post
+{
+  
+    width: 25%;
+    float: left;
+}
+.author-post{
+    border-top: 1px solid #d9d9d9;
+    padding-top: 15px;
+    
+}
+.author-post img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    
+}
+/*float property ko correct krne ke liye*/.clearfix:after
+{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.others{
+    margin-bottom: 40px;
+}
+.date
+{
+    top: 25px;
+    bottom: 30px;
+    position: absolute;
+}
+
+
+
+
